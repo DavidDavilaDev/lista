@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista interactiva</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 5px 0; }
+        button { margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Lista Interactiva</h1>
+
+    <input type="text" id="new-item" placeholder="Agregar nuevo ítem" />
+    <button onclick="addItem()">Agregar</button>
+
+    <ul id="list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
